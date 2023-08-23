@@ -1,27 +1,27 @@
 # Flipkart Grid 5.0 Submission
 
-Team Name - Wingardium Laviousa
+_Team Name - Wingardium Laviousa_
 
-Folder structure:
+**Folder structure:**
 
 - backend All Django backend code is present in this folder.
 - frontend, React frontend code is present in this folder.
 - notebooks, Jupyter notebooks for the LLM pipeline along with fine tuning dataset is present in this folder.
 
 
-Google Login:
+**Google Login:**
 The application uses Google OAuth for signing in users.
 To use this feature, create a project on google cloud api console and obtain CLIENT ID for web application.
 The client id is to be inserted in `google_auth/views.py` and `index.js` files.
 
-Postgres SQL:
+**Postgres SQL:**
 The application is stored in postgreSQL for persistance. Any other database can be used. The config in `settings.py` needs to be updated accordingly.
 
-Redis stack server:
+**Redis stack server:**
 
 The embedding of scrapped fashion trends are stored in redis vector store. To use this functionality, redis stack server needs to be installed.
 
-Backend installation:
+#### Backend installation:
 ```
 python -m venv venv # use python version 3
 source venv/bin/activate
@@ -39,7 +39,7 @@ Install and run `redis stack server`. This can be done using apt for linux syste
 Example Prompt for the web application:
 `I am a 22 year old male looking for a casual outfit.`
 
-Notebooks:
+**Notebooks:**
 1. `Formatted_Product-Metadata_trial.csv`: Custom dataset created for finetuning Llama 2 model for better recommendations. The finetuned model is available at `Dakshi22/Flipkart_Grid`
 2. `SQL+RAG.ipynb`: The LLM pipeline used for generating recommendations using Retrieval Augmented Generation.
 3. `tryfinetune.ipynb`: Notebook used to finetune llama 2 model with custom dataset in file 1.
