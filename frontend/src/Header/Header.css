@@ -1,0 +1,13 @@
+.header-search-container .search-field {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.header-search-container .search-field:focus {
+  outline: none;
+  border: 1px solid #666;
+}
+
+.llm-output-toggle {
+  font-size: 30px;
+}

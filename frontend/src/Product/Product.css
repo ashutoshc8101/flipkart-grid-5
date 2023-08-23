@@ -1,0 +1,129 @@
+.product-content {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 100px;
+}
+
+.product-brand {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--salmon-pink);
+  font-size: var(--fs-7);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--davys-gray);
+  font-size: var(--fs-4);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.product-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--sandy-brown);
+  font-size: 20px;
+  padding: 4px 0;
+  margin-bottom: 10px;
+}
+
+
+.product-price-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.product-price-box del {
+  color: var(--sonic-silver);
+  /* font-size: 13px; */
+}
+
+.product-description {
+  color: var(--davys-gray);
+  font-size:var(--fs-7);
+}
+
+.product-description-title {
+  font-size:var(--fs-8);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.product-description {
+  line-height: 30px;
+}
+
+.product-reviews {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--cultured);
+  padding: 20px 0px;
+}
+
+.product-review-author {
+  font-weight: 500;
+  font-size: var(--fs-6);
+  color: var(--davys-gray);
+}
+
+.product-review-description {
+  color: var(--davys-gray);
+  font-size: var(--fs-7);
+  padding: 10px 0px;
+  font-style: italic;
+}
+
+.product-review-timestamp {
+  font-size: var(--fs-9);
+  color: var(--davys-gray);
+}
+
+.product-reviews h3 {
+  margin-bottom: 15px;
+}
+
+.product-price-box {
+  margin-bottom: 20px;
+}
+
+.product-description-title {
+  margin-top: 20px;
+}
+
+.product-category {
+  font-size: var(--fs-8);
+  color: var(--davys-gray);
+  text-transform: capitalize;
+}
+
+.product-category:hover {
+  color: var(--salmon-pink);
+}
+
+.product-review {
+  border-bottom: 1px solid var(--cultured);
+  margin-bottom: 10px;
+}

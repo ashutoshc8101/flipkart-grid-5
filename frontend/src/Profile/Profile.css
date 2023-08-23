@@ -1,0 +1,26 @@
+.profile {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+}

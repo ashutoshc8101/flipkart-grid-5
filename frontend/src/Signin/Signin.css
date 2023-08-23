@@ -1,0 +1,35 @@
+
+.login-page {
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+  border: 1px solid var(--cultured);
+  padding: 40px;
+
+}
+
+.login-heading {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
+.login-subheading {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+  text-align: center;
+}
+
+.google-login {
+  width: 300px;
+  margin: 0px auto;
+}
+
+.app-logo {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
