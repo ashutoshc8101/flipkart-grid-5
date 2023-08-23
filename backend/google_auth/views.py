@@ -13,7 +13,7 @@ from django.contrib.auth.models import User
 from user_details.models import UserDetail
 from .serializers import UserDetailsSerializer
 
-CLIENT_ID = '817832900797-m6ouvvag42jtr29aama28trfui7dcq0h.apps.googleusercontent.com'
+CLIENT_ID = ''
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
