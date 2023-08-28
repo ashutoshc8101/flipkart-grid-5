@@ -130,7 +130,7 @@ class InferencePipeline:
         # decomposition = self.generate_questions(user_query)
 
         # decomposition_list = decomposition.split('\n')
-        text_to_sql_query = "1. What are the id, title, gender, age, image_url, actual_price, brand, rating, selling_price and description of those whose gender is Men and age is 20"
+        # text_to_sql_query = "1. What are the id, title, gender, age, image_url, actual_price, brand, rating, selling_price and description of those whose gender is Men and age is 20"
         # print(decomposition_list)
 
         # for line in decomposition_list:
