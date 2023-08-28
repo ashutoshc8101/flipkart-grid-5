@@ -137,7 +137,7 @@ class InferencePipeline:
         #     if (line.strip().startswith("1.")):
         #         text_to_sql_query = line.strip()
 
-        print("Text to SQL query", text_to_sql_query)
+        # print("Text to SQL query", text_to_sql_query)
 
         # Create SQL Query Engine
         sql_query_engine = NLSQLTableQueryEngine(
