@@ -44,3 +44,14 @@ Example Prompt for the web application:
 2. `SQL+RAG.ipynb`: The LLM pipeline used for generating recommendations using Retrieval Augmented Generation.
 3. `tryfinetune.ipynb`: Notebook used to finetune llama 2 model with custom dataset in file 1.
 4. `vogue__bs_scrape.ipynb`: Notebook used to scrap data from vogue india's web site.
+
+
+
+## High Level View of the solution: 
+
+![image](https://github.com/dakshigoel22/FlipkartGrid5/assets/88319260/3bdeff92-0489-4cd7-8cef-0a5bd9997083)
+
+## Low Level View of the solution: 
+
+![image](https://github.com/dakshigoel22/FlipkartGrid5/assets/88319260/7f939748-ae70-4918-8a4d-fd883f56ff6d)
+
