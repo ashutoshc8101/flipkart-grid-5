@@ -48,10 +48,10 @@ Example Prompt for the web application:
 
 
 ## High Level View of the solution: 
+![image](https://github.com/ashutoshc8101/flipkart-grid-5/assets/24855641/59219bf7-4f02-43e7-ae87-20173172548d)
 
-![image](https://github.com/dakshigoel22/FlipkartGrid5/assets/88319260/3bdeff92-0489-4cd7-8cef-0a5bd9997083)
+
 
 ## Low Level View of the solution: 
-
-![image](https://github.com/dakshigoel22/FlipkartGrid5/assets/88319260/7f939748-ae70-4918-8a4d-fd883f56ff6d)
+![image](https://github.com/ashutoshc8101/flipkart-grid-5/assets/24855641/efe22cb2-049e-4499-a1e6-c2f89af0ccdc)
 
